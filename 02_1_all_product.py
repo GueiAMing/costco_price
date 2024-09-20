@@ -71,6 +71,4 @@ for i in range(5):
     finally:
         dashtext = "---------------------------------------------"
         CostcoPriceGoogleForm_All(product_name=dashtext, discount_value=dashtext, price_value=f"第{i+1}頁"+dashtext, you_pay_value=dashtext, url=dashtext)
-
-
 driver.quit()
