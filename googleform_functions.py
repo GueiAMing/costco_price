@@ -1,6 +1,5 @@
 import requests
 
-
 def CostcoPriceGoogleForm_Some( product_name, discount_value, price_value, you_pay_value, url):
 
 
