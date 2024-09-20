@@ -39,7 +39,6 @@ for item in item_dict:
         print(item,f"有折扣{elem2.text}")
         discount_value = "有折扣"
         you_pay_value = elem2.text
-
         write_data_to_form = [product_name, discount_value, price_value, you_pay_value]
         print(write_data_to_form)
     except NoSuchElementException:
@@ -48,19 +47,13 @@ for item in item_dict:
         elem = driver.find_element(By.TAG_NAME,"sip-format-price")
         print(elem.text)
         price_value = elem.text
-        you_pay_value = elem.text
-        
+        you_pay_value = elem.text     
         write_data_to_form = [product_name, discount_value, price_value, you_pay_value]
         print(write_data_to_form)
-        
-
     CostcoPriceGoogleForm_Some( product_name, discount_value, price_value, you_pay_value, url)
     time.sleep(5)
-
-
 dashtext = "---------------------------------------------"
 CostcoPriceGoogleForm_Some(product_name=dashtext, discount_value=dashtext, price_value=dashtext, you_pay_value=dashtext, url=dashtext)
-
 driver.quit()
 
 
