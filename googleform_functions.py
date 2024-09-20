@@ -5,7 +5,7 @@ def CostcoPriceGoogleForm_Some( product_name, discount_value, price_value, you_p
 
 
     # Google 表單回應 URL
-    form_url = 'https://docs.google.com/forms/d/e/1FAIpQLSey5888hWPghPVJf7-U4kfgUif23z5ro5uomrwHBbVfYZG0ug/formResponse'#曉明costco表單
+    form_url = 'your google form url'
 
     # 填寫的數據
     data = {
@@ -34,7 +34,7 @@ def CostcoPriceGoogleForm_All( product_name, discount_value, price_value, you_pa
 
 
     # Google 表單回應 URL
-    form_url = 'https://docs.google.com/forms/d/e/1FAIpQLSfDN5JYJ1DTx116jq-Dr7n_apCsJP2gVHN_gnOK5GZ16zDcyg/formResponse'#曉明costco表單
+    form_url = 'your google form url'
 
     # 填寫的數據
     data = {
