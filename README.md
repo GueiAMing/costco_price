@@ -34,6 +34,8 @@ git clone https://github.com/GueiAMing/costco_price.git
 ``` 
 cd ./costco_price
 ```
+8. 修改程式碼
+在googleform_functions.py中替換'your google form url'成自行設定的表單，或者刪除04、02_1之中有關的函式
 7. 抓取特定商品
 ```
 python 04_some_product.py
